@@ -1,0 +1,4636 @@
+[
+  {
+    "Type": "CanvasPanel",
+    "Name": "Hazard_Anim_01_Assets",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Hazard_KB_Anim_A_C:WidgetTree'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.76"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'Hazard_KB_Anim_A_C:WidgetTree.Hazard_Anim_01_Assets.CanvasPanelSlot_3'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.2"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'Hazard_KB_Anim_A_C:WidgetTree.Hazard_Anim_01_Assets.CanvasPanelSlot_0'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.1"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'Hazard_KB_Anim_A_C:WidgetTree.Holder.OverlaySlot_1'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.68"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 3.0,
+          "Y": 3.0
+        }
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CanvasPanel'Hazard_KB_Anim_A_C:WidgetTree.Hazard_Anim_01_Assets'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.0"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 2.75,
+          "Top": 2.75,
+          "Right": 73.75,
+          "Bottom": 73.75
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'Hazard_KB_Anim_A_C:WidgetTree.Hazard_Anim_01_Assets'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.0"
+      },
+      "Content": {
+        "ObjectName": "Image'Hazard_KB_Anim_A_C:WidgetTree.hazard_frame_anim'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.13"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CanvasPanel'Hazard_KB_Anim_A_C:WidgetTree.Hazard_Anim_01_Assets'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.0"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 78.9,
+          "Bottom": 78.9
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'Hazard_KB_Anim_A_C:WidgetTree.Hazard_Anim_01_Assets'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.0"
+      },
+      "Content": {
+        "ObjectName": "Image'Hazard_KB_Anim_A_C:WidgetTree.hazard_blade_teeth'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.12"
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_Hazard_KB_Anim_A",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Hazard_KB_Anim_A_C'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.75"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_PlayAnimation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'UMGSequencePlayer'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_PlayAnimation_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'UMGSequencePlayer'",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnFadeIn",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Hazard_KB_Anim_A_C'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.75"
+    },
+    "Super": {
+      "ObjectName": "Function'OptionalKillBannerEffects_Parent_C:OnFadeIn'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/CommonAssets/OptionalKillBannerEffects_Parent.3"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnFadeOut",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Hazard_KB_Anim_A_C'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.75"
+    },
+    "Super": {
+      "ObjectName": "Function'OptionalKillBannerEffects_Parent_C:OnFadeOut'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/CommonAssets/OptionalKillBannerEffects_Parent.4"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Trigger",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Hazard_KB_Anim_A_C'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.75"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "isForward",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Temp_byte_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EUMGSequencePlayMode'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Temp_byte_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EUMGSequencePlayMode'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EUMGSequencePlayMode'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_PlayAnimation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'UMGSequencePlayer'",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Hazard_KB_Anim_A_C",
+    "Name": "Default__Hazard_KB_Anim_A_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.Hazard_KB_Anim_A_C'",
+    "Template": {
+      "ObjectName": "OptionalKillBannerEffects_Parent_C'Default__OptionalKillBannerEffects_Parent_C'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/CommonAssets/OptionalKillBannerEffects_Parent.7"
+    },
+    "Properties": {
+      "UberGraphFrame": {},
+      "Data": {
+        "KillWheel_Slice_Radius_23_93B498D8455F7ECBDF0367ADF77B93E3": 120.0,
+        "Badge_HeadshotOffset_34_46CE41534C94C72E84BC8195F948FA17": {
+          "X": 0.0,
+          "Y": -30.0
+        }
+      },
+      "MaxKills": 0
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Hazard_KB_Anim_A_C:WidgetTree'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.76"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'Hazard_KB_Anim_A_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_1'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.10"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'Hazard_KB_Anim_A_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.11"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'Hazard_KB_Anim_A_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.9"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'Hazard_KB_Anim_A_C:WidgetTree.Holder.OverlaySlot_0'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.67"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'Hazard_KB_Anim_A_C:WidgetTree.HorizontalBox_0'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.8"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'Hazard_KB_Anim_A_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.8"
+      },
+      "Content": {
+        "ObjectName": "Image'Hazard_KB_Anim_A_C:WidgetTree.Image_43'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.15"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'Hazard_KB_Anim_A_C:WidgetTree.HorizontalBox_0'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.8"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'Hazard_KB_Anim_A_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.8"
+      },
+      "Content": {
+        "ObjectName": "Image'Hazard_KB_Anim_A_C:WidgetTree.Image_126'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.14"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'Hazard_KB_Anim_A_C:WidgetTree.HorizontalBox_0'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.8"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'Hazard_KB_Anim_A_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.8"
+      },
+      "Content": {
+        "ObjectName": "Spacer'Hazard_KB_Anim_A_C:WidgetTree.Spacer_59'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.69"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "hazard_blade_teeth",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Hazard_KB_Anim_A_C:WidgetTree'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.76"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 216.0,
+          "Y": 216.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Hazard_Frame_Blade'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_Frame_Blade.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'Hazard_KB_Anim_A_C:WidgetTree.Hazard_Anim_01_Assets.CanvasPanelSlot_3'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.2"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "hazard_frame_anim",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Hazard_KB_Anim_A_C:WidgetTree'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.76"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 220.0,
+          "Y": 220.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Hazard_Frame_BG'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_Frame_BG.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'Hazard_KB_Anim_A_C:WidgetTree.Hazard_Anim_01_Assets.CanvasPanelSlot_0'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.1"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_126",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Hazard_KB_Anim_A_C:WidgetTree'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.76"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'FantasySovereign_Wings'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/FantasySovereign/FantasySovereign_Wings.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'Hazard_KB_Anim_A_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_1'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.10"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.0,
+          "Y": 1.0
+        }
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_43",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Hazard_KB_Anim_A_C:WidgetTree'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.76"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'FantasySovereign_Wings'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/FantasySovereign/FantasySovereign_Wings.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'Hazard_KB_Anim_A_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.9"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.0,
+          "Y": 1.0
+        }
+      }
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Hazard_Blade_Animation_Intro",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Intro_INST'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.70"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          },
+          "Guid": "786ACFFA-4FB40700-0B279691-DA68DEDC",
+          "Name": "hazard_blade_teeth",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          },
+          "Guid": "58DCFE0C-4B56114B-F9C74BA0-08699F10",
+          "Name": "hazard_frame_anim",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "786ACFFA-4FB40700-0B279691-DA68DEDC",
+          "BindingName": "hazard_blade_teeth",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene2DTransformTrack'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Intro_INST.Hazard_Blade_Animation_Intro.MovieScene2DTransformTrack_4'",
+              "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.27"
+            },
+            {
+              "ObjectName": "MovieSceneColorTrack'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Intro_INST.Hazard_Blade_Animation_Intro.MovieSceneColorTrack_3'",
+              "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.58"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "58DCFE0C-4B56114B-F9C74BA0-08699F10",
+          "BindingName": "hazard_frame_anim",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene2DTransformTrack'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Intro_INST.Hazard_Blade_Animation_Intro.MovieScene2DTransformTrack_0'",
+              "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.26"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": -30000
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 21001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "C981A068-464462D7-55F9F980-1056A6ED"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Hazard_Blade_Animation_Outro",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Outro_INST'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.71"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          },
+          "Guid": "786ACFFA-4FB40700-0B279691-DA68DEDC",
+          "Name": "hazard_blade_teeth",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          },
+          "Guid": "525E7E61-4D6DDC73-9C541FA9-5FFD001F",
+          "Name": "hazard_frame_anim",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "786ACFFA-4FB40700-0B279691-DA68DEDC",
+          "BindingName": "hazard_blade_teeth",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene2DTransformTrack'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Outro_INST.Hazard_Blade_Animation_Outro.MovieScene2DTransformTrack_4'",
+              "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.28"
+            },
+            {
+              "ObjectName": "MovieSceneColorTrack'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Outro_INST.Hazard_Blade_Animation_Outro.MovieSceneColorTrack_3'",
+              "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.60"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "525E7E61-4D6DDC73-9C541FA9-5FFD001F",
+          "BindingName": "hazard_frame_anim",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneColorTrack'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Outro_INST.Hazard_Blade_Animation_Outro.MovieSceneColorTrack_0'",
+              "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.59"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": -30000
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 3001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "B741A2E2-4678659D-893876AF-A0D30FAD"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Hide",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Hazard_KB_Anim_A_C:Hide_INST'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.72"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          },
+          "Guid": "C9FEF1C1-48C8FC7A-CB30DF93-7AA31251",
+          "Name": "Holder",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "C9FEF1C1-48C8FC7A-CB30DF93-7AA31251",
+          "BindingName": "Holder",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneByteTrack'Hazard_KB_Anim_A_C:Hide_INST.Hide.MovieSceneByteTrack_0'",
+              "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.53"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 300001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "73B146A8-4BB33F85-046AFC82-8C47FD87"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Show",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Hazard_KB_Anim_A_C:Show_INST'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.73"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          },
+          "Guid": "B897D125-4096FCA5-AB6F6B95-A0E7D541",
+          "Name": "Holder",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "B897D125-4096FCA5-AB6F6B95-A0E7D541",
+          "BindingName": "Holder",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneByteTrack'Hazard_KB_Anim_A_C:Show_INST.Show.MovieSceneByteTrack_0'",
+              "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.54"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 300001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "DB96EDFB-45B511B6-32B3E982-3AF6E373"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "wingmove",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Hazard_KB_Anim_A_C:wingmove_INST'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.74"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          },
+          "Guid": "B5E5AB7C-46119A8B-7CBF5588-7E052489",
+          "Name": "Image_126",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        },
+        {
+          "Tags": [],
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          },
+          "Guid": "75D95E81-4C435E3A-457A9D8B-A7F808F1",
+          "Name": "Image_43",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "B5E5AB7C-46119A8B-7CBF5588-7E052489",
+          "BindingName": "Image_126",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene2DTransformTrack'Hazard_KB_Anim_A_C:wingmove_INST.wingmove.MovieScene2DTransformTrack_0'",
+              "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.29"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "75D95E81-4C435E3A-457A9D8B-A7F808F1",
+          "BindingName": "Image_43",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene2DTransformTrack'Hazard_KB_Anim_A_C:wingmove_INST.wingmove.MovieScene2DTransformTrack_1'",
+              "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.30"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": -6000
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 6000
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "B4258E30-46DC76AD-D8801FA3-22BC3AA2"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformTrack'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Intro_INST.Hazard_Blade_Animation_Intro.MovieScene2DTransformTrack_0'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.26"
+    },
+    "Properties": {
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 21000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Translation[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 21000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Rotation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 21000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -30000
+          },
+          {
+            "Value": -24000
+          },
+          {
+            "Value": 21000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Scale[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -30000
+          },
+          {
+            "Value": -24000
+          },
+          {
+            "Value": 21000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Shear": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 21000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Shear[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 21000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Intro_INST.Hazard_Blade_Animation_Intro.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.31"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Intro_INST.Hazard_Blade_Animation_Intro.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.32"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": -30000
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 21000
+            }
+          }
+        }
+      },
+      "Signature": "C4C49E6E-49388146-66A89E87-2D8AEB07"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformTrack'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Intro_INST.Hazard_Blade_Animation_Intro.MovieScene2DTransformTrack_4'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.27"
+    },
+    "Properties": {
+      "Rotation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -27000
+          },
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 3.8146973E-06,
+            "Tangent": {
+              "ArriveTangent": 0.011966443,
+              "LeaveTangent": 0.011966443,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 1
+          },
+          {
+            "Value": 240.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -30000
+          },
+          {
+            "Value": -21000
+          },
+          {
+            "Value": -12000
+          },
+          {
+            "Value": 3000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.75,
+            "Tangent": {
+              "ArriveTangent": 5.5555556E-05,
+              "LeaveTangent": 5.5555556E-05,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Scale[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -30000
+          },
+          {
+            "Value": -21000
+          },
+          {
+            "Value": -12000
+          },
+          {
+            "Value": 3000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.75,
+            "Tangent": {
+              "ArriveTangent": 5.5555556E-05,
+              "LeaveTangent": 5.5555556E-05,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Intro_INST.Hazard_Blade_Animation_Intro.MovieScene2DTransformTrack_4.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.33"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Intro_INST.Hazard_Blade_Animation_Intro.MovieScene2DTransformTrack_4.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.34"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": -30000
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 21000
+            }
+          }
+        }
+      },
+      "Signature": "38F81B5A-42686149-4818BD8C-E56FD460"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformTrack'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Outro_INST.Hazard_Blade_Animation_Outro.MovieScene2DTransformTrack_4'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.28"
+    },
+    "Properties": {
+      "Rotation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -30000
+          },
+          {
+            "Value": 3000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 90.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -30000
+          },
+          {
+            "Value": -18000
+          },
+          {
+            "Value": -3000
+          },
+          {
+            "Value": 3000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.75,
+            "Tangent": {
+              "ArriveTangent": -4.7619047E-05,
+              "LeaveTangent": -4.7619047E-05,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Scale[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -30000
+          },
+          {
+            "Value": -18000
+          },
+          {
+            "Value": -3000
+          },
+          {
+            "Value": 3000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.75,
+            "Tangent": {
+              "ArriveTangent": -4.7619047E-05,
+              "LeaveTangent": -4.7619047E-05,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Outro_INST.Hazard_Blade_Animation_Outro.MovieScene2DTransformTrack_4.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.37"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Outro_INST.Hazard_Blade_Animation_Outro.MovieScene2DTransformTrack_4.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.38"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": -30000
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 3000
+            }
+          }
+        }
+      },
+      "Signature": "2D2C26F3-4F1434D1-54DBC3A7-CDB6C01C"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformTrack'Hazard_KB_Anim_A_C:wingmove_INST.wingmove.MovieScene2DTransformTrack_0'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.29"
+    },
+    "Properties": {
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -6000
+          },
+          {
+            "Value": 3000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 90.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Translation[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -6000
+          },
+          {
+            "Value": 3000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -6000
+          },
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": -1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Scale[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -6000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Hazard_KB_Anim_A_C:wingmove_INST.wingmove.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.47"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Hazard_KB_Anim_A_C:wingmove_INST.wingmove.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.48"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": -6000
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 6000
+            }
+          }
+        }
+      },
+      "Signature": "300E4B1C-4A534DF2-D089B1BF-55125702"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformTrack'Hazard_KB_Anim_A_C:wingmove_INST.wingmove.MovieScene2DTransformTrack_1'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.30"
+    },
+    "Properties": {
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -6000
+          },
+          {
+            "Value": 3000
+          }
+        ],
+        "Values": [
+          {
+            "Value": -90.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Translation[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -6000
+          },
+          {
+            "Value": 3000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -6000
+          },
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Scale[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -6000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Hazard_KB_Anim_A_C:wingmove_INST.wingmove.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.49"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Hazard_KB_Anim_A_C:wingmove_INST.wingmove.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.50"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": -6000
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 6000
+            }
+          }
+        }
+      },
+      "Signature": "E6798844-479492FE-ECC4E8B8-FB9A9402"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Intro_INST.Hazard_Blade_Animation_Intro'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.16"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Intro_INST.Hazard_Blade_Animation_Intro.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.21"
+        }
+      ],
+      "EvaluationFieldGuid": "3F10FF4A-43FC023C-B687E693-C36D0C36",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Intro_INST.Hazard_Blade_Animation_Intro.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+              "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.21"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": -30000
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 21000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "3F10FF4A-43FC023C-B687E693-C36D0C36"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Intro_INST.Hazard_Blade_Animation_Intro'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.16"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Intro_INST.Hazard_Blade_Animation_Intro.MovieScene2DTransformTrack_4.MovieScene2DTransformSection_0'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.22"
+        }
+      ],
+      "EvaluationFieldGuid": "9A4451C8-4C486DCB-C03D4C99-5664B9CF",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Intro_INST.Hazard_Blade_Animation_Intro.MovieScene2DTransformTrack_4.MovieScene2DTransformSection_0'",
+              "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.22"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": -30000
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 21000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "9A4451C8-4C486DCB-C03D4C99-5664B9CF"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Outro_INST.Hazard_Blade_Animation_Outro'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.17"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Outro_INST.Hazard_Blade_Animation_Outro.MovieScene2DTransformTrack_4.MovieScene2DTransformSection_0'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.23"
+        }
+      ],
+      "EvaluationFieldGuid": "BD32EB20-4B13CD4D-5E984486-21418BE1",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Outro_INST.Hazard_Blade_Animation_Outro.MovieScene2DTransformTrack_4.MovieScene2DTransformSection_0'",
+              "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.23"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": -30000
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 3000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "BD32EB20-4B13CD4D-5E984486-21418BE1"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Hazard_KB_Anim_A_C:wingmove_INST.wingmove'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.20"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'Hazard_KB_Anim_A_C:wingmove_INST.wingmove.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.24"
+        }
+      ],
+      "EvaluationFieldGuid": "92293AAF-4C9D55D9-3F44AF9F-7B4711B9",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection'Hazard_KB_Anim_A_C:wingmove_INST.wingmove.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+              "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.24"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": -6000
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 6000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "92293AAF-4C9D55D9-3F44AF9F-7B4711B9"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Hazard_KB_Anim_A_C:wingmove_INST.wingmove'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.20"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'Hazard_KB_Anim_A_C:wingmove_INST.wingmove.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.25"
+        }
+      ],
+      "EvaluationFieldGuid": "6E14272D-4BEC9CA3-D74D5489-90D30D11",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection'Hazard_KB_Anim_A_C:wingmove_INST.wingmove.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+              "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.25"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": -6000
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 6000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "6E14272D-4BEC9CA3-D74D5489-90D30D11"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Intro_INST.Hazard_Blade_Animation_Intro.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.21"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Intro_INST.Hazard_Blade_Animation_Intro.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.21"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Intro_INST.Hazard_Blade_Animation_Intro.MovieScene2DTransformTrack_4.MovieScene2DTransformSection_0'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.22"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Intro_INST.Hazard_Blade_Animation_Intro.MovieScene2DTransformTrack_4.MovieScene2DTransformSection_0'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.22"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneColorSection'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Intro_INST.Hazard_Blade_Animation_Intro.MovieSceneColorTrack_3.MovieSceneColorSection_0'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.55"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneColorSection'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Intro_INST.Hazard_Blade_Animation_Intro.MovieSceneColorTrack_3.MovieSceneColorSection_0'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.55"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Outro_INST.Hazard_Blade_Animation_Outro.MovieScene2DTransformTrack_4.MovieScene2DTransformSection_0'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.23"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Outro_INST.Hazard_Blade_Animation_Outro.MovieScene2DTransformTrack_4.MovieScene2DTransformSection_0'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.23"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneColorSection'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Outro_INST.Hazard_Blade_Animation_Outro.MovieSceneColorTrack_0.MovieSceneColorSection_0'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.56"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneColorSection'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Outro_INST.Hazard_Blade_Animation_Outro.MovieSceneColorTrack_0.MovieSceneColorSection_0'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.56"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneColorSection'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Outro_INST.Hazard_Blade_Animation_Outro.MovieSceneColorTrack_3.MovieSceneColorSection_0'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.57"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneColorSection'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Outro_INST.Hazard_Blade_Animation_Outro.MovieSceneColorTrack_3.MovieSceneColorSection_0'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.57"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneByteSection'Hazard_KB_Anim_A_C:Hide_INST.Hide.MovieSceneByteTrack_0.MovieSceneByteSection_0'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.51"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneByteSection'Hazard_KB_Anim_A_C:Hide_INST.Hide.MovieSceneByteTrack_0.MovieSceneByteSection_0'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.51"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneByteSection'Hazard_KB_Anim_A_C:Show_INST.Show.MovieSceneByteTrack_0.MovieSceneByteSection_0'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.52"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneByteSection'Hazard_KB_Anim_A_C:Show_INST.Show.MovieSceneByteTrack_0.MovieSceneByteSection_0'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.52"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Hazard_KB_Anim_A_C:wingmove_INST.wingmove.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.24"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Hazard_KB_Anim_A_C:wingmove_INST.wingmove.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.24"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Hazard_KB_Anim_A_C:wingmove_INST.wingmove.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.25"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'Hazard_KB_Anim_A_C:wingmove_INST.wingmove.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.25"
+    }
+  },
+  {
+    "Type": "MovieSceneByteSection",
+    "Name": "MovieSceneByteSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneByteSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneByteTrack'Hazard_KB_Anim_A_C:Hide_INST.Hide.MovieSceneByteTrack_0'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.53"
+    },
+    "Properties": {
+      "ByteCurve": {
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          1
+        ],
+        "Enum": {
+          "ObjectName": "Class'ESlateVisibility'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Hazard_KB_Anim_A_C:Hide_INST.Hide.MovieSceneByteTrack_0.MovieSceneByteSection_0.EaseInFunction'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.43"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Hazard_KB_Anim_A_C:Hide_INST.Hide.MovieSceneByteTrack_0.MovieSceneByteSection_0.EaseOutFunction'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.44"
+        }
+      },
+      "Signature": "69AC9F85-41592AC8-077A83AC-CF7F5BB1"
+    }
+  },
+  {
+    "Type": "MovieSceneByteSection",
+    "Name": "MovieSceneByteSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneByteSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneByteTrack'Hazard_KB_Anim_A_C:Show_INST.Show.MovieSceneByteTrack_0'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.54"
+    },
+    "Properties": {
+      "ByteCurve": {
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          3
+        ],
+        "Enum": {
+          "ObjectName": "Class'ESlateVisibility'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Hazard_KB_Anim_A_C:Show_INST.Show.MovieSceneByteTrack_0.MovieSceneByteSection_0.EaseInFunction'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.45"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Hazard_KB_Anim_A_C:Show_INST.Show.MovieSceneByteTrack_0.MovieSceneByteSection_0.EaseOutFunction'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.46"
+        }
+      },
+      "Signature": "386A2F64-41AB8D74-6588DBBE-5701C29C"
+    }
+  },
+  {
+    "Type": "MovieSceneByteTrack",
+    "Name": "MovieSceneByteTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneByteTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Hazard_KB_Anim_A_C:Hide_INST.Hide'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.18"
+    },
+    "Properties": {
+      "Enum": {
+        "ObjectName": "Class'ESlateVisibility'",
+        "ObjectPath": "/Script/UMG"
+      },
+      "PropertyBinding": {
+        "PropertyName": "Visibility",
+        "PropertyPath": "Visibility",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneByteSection'Hazard_KB_Anim_A_C:Hide_INST.Hide.MovieSceneByteTrack_0.MovieSceneByteSection_0'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.51"
+        }
+      ],
+      "EvaluationFieldGuid": "1C46A511-4EDA809E-DBEE7D86-942E45FB",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneByteSection'Hazard_KB_Anim_A_C:Hide_INST.Hide.MovieSceneByteTrack_0.MovieSceneByteSection_0'",
+              "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.51"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "1C46A511-4EDA809E-DBEE7D86-942E45FB"
+    }
+  },
+  {
+    "Type": "MovieSceneByteTrack",
+    "Name": "MovieSceneByteTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneByteTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Hazard_KB_Anim_A_C:Show_INST.Show'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.19"
+    },
+    "Properties": {
+      "Enum": {
+        "ObjectName": "Class'ESlateVisibility'",
+        "ObjectPath": "/Script/UMG"
+      },
+      "PropertyBinding": {
+        "PropertyName": "Visibility",
+        "PropertyPath": "Visibility",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneByteSection'Hazard_KB_Anim_A_C:Show_INST.Show.MovieSceneByteTrack_0.MovieSceneByteSection_0'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.52"
+        }
+      ],
+      "EvaluationFieldGuid": "97B0B863-42CC9A6C-4BD8C788-654BD235",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneByteSection'Hazard_KB_Anim_A_C:Show_INST.Show.MovieSceneByteTrack_0.MovieSceneByteSection_0'",
+              "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.52"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "97B0B863-42CC9A6C-4BD8C788-654BD235"
+    }
+  },
+  {
+    "Type": "MovieSceneColorSection",
+    "Name": "MovieSceneColorSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneColorSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneColorTrack'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Intro_INST.Hazard_Blade_Animation_Intro.MovieSceneColorTrack_3'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.58"
+    },
+    "Properties": {
+      "AlphaCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -30000
+          },
+          {
+            "Value": -27000
+          },
+          {
+            "Value": -12000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Intro_INST.Hazard_Blade_Animation_Intro.MovieSceneColorTrack_3.MovieSceneColorSection_0.EaseInFunction'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.35"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Intro_INST.Hazard_Blade_Animation_Intro.MovieSceneColorTrack_3.MovieSceneColorSection_0.EaseOutFunction'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.36"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": -30000
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 21000
+            }
+          }
+        }
+      },
+      "Signature": "D646698D-4EFA691F-2EC623B8-90A03473"
+    }
+  },
+  {
+    "Type": "MovieSceneColorSection",
+    "Name": "MovieSceneColorSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneColorSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneColorTrack'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Outro_INST.Hazard_Blade_Animation_Outro.MovieSceneColorTrack_0'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.59"
+    },
+    "Properties": {
+      "RedCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -30000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "GreenCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -30000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "BlueCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -30000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "AlphaCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -30000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Outro_INST.Hazard_Blade_Animation_Outro.MovieSceneColorTrack_0.MovieSceneColorSection_0.EaseInFunction'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.39"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Outro_INST.Hazard_Blade_Animation_Outro.MovieSceneColorTrack_0.MovieSceneColorSection_0.EaseOutFunction'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.40"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": -30000
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": -30000
+            }
+          }
+        }
+      },
+      "Signature": "3537B762-4FA636EA-6F046292-AE6CF5D5"
+    }
+  },
+  {
+    "Type": "MovieSceneColorSection",
+    "Name": "MovieSceneColorSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneColorSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneColorTrack'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Outro_INST.Hazard_Blade_Animation_Outro.MovieSceneColorTrack_3'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.60"
+    },
+    "Properties": {
+      "AlphaCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -30000
+          },
+          {
+            "Value": -18000
+          },
+          {
+            "Value": -6000
+          },
+          {
+            "Value": 3000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Outro_INST.Hazard_Blade_Animation_Outro.MovieSceneColorTrack_3.MovieSceneColorSection_0.EaseInFunction'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.41"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Outro_INST.Hazard_Blade_Animation_Outro.MovieSceneColorTrack_3.MovieSceneColorSection_0.EaseOutFunction'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.42"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": -30000
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 3000
+            }
+          }
+        }
+      },
+      "Signature": "AD33C0D6-4E391D5A-A1A57CB3-F3276AB9"
+    }
+  },
+  {
+    "Type": "MovieSceneColorTrack",
+    "Name": "MovieSceneColorTrack_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneColorTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Intro_INST.Hazard_Blade_Animation_Intro'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.16"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "ColorAndOpacity",
+        "PropertyPath": "ColorAndOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneColorSection'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Intro_INST.Hazard_Blade_Animation_Intro.MovieSceneColorTrack_3.MovieSceneColorSection_0'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.55"
+        }
+      ],
+      "EvaluationFieldGuid": "B347D910-4506F472-E8236AB6-95A31104",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneColorSection'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Intro_INST.Hazard_Blade_Animation_Intro.MovieSceneColorTrack_3.MovieSceneColorSection_0'",
+              "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.55"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": -30000
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 21000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "B347D910-4506F472-E8236AB6-95A31104"
+    }
+  },
+  {
+    "Type": "MovieSceneColorTrack",
+    "Name": "MovieSceneColorTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneColorTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Outro_INST.Hazard_Blade_Animation_Outro'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.17"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "ColorAndOpacity",
+        "PropertyPath": "ColorAndOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneColorSection'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Outro_INST.Hazard_Blade_Animation_Outro.MovieSceneColorTrack_0.MovieSceneColorSection_0'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.56"
+        }
+      ],
+      "EvaluationFieldGuid": "D95DB917-46B581FF-6DAD91B4-A504AE53",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneColorSection'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Outro_INST.Hazard_Blade_Animation_Outro.MovieSceneColorTrack_0.MovieSceneColorSection_0'",
+              "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.56"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": -30000
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": -30000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "D95DB917-46B581FF-6DAD91B4-A504AE53"
+    }
+  },
+  {
+    "Type": "MovieSceneColorTrack",
+    "Name": "MovieSceneColorTrack_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneColorTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Outro_INST.Hazard_Blade_Animation_Outro'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.17"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "ColorAndOpacity",
+        "PropertyPath": "ColorAndOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneColorSection'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Outro_INST.Hazard_Blade_Animation_Outro.MovieSceneColorTrack_3.MovieSceneColorSection_0'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.57"
+        }
+      ],
+      "EvaluationFieldGuid": "36440DB1-4584B9C8-DAA145BA-9CFB1C8C",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneColorSection'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Outro_INST.Hazard_Blade_Animation_Outro.MovieSceneColorTrack_3.MovieSceneColorSection_0'",
+              "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.57"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": -30000
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 3000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "36440DB1-4584B9C8-DAA145BA-9CFB1C8C"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Intro_INST'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.70"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 2,
+                  "Capacity": 2
+                },
+                {
+                  "StartIndex": 2,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 2,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                },
+                {
+                  "StartIndex": 1,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": -30000
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 21000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": 1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                },
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": -30000
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 21000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": 0
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Intro_INST.Hazard_Blade_Animation_Intro.MovieScene2DTransformTrack_4.MovieScene2DTransformSection_0'",
+                "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.22"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneColorSection'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Intro_INST.Hazard_Blade_Animation_Intro.MovieSceneColorTrack_3.MovieSceneColorSection_0'",
+                "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.55"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Intro_INST.Hazard_Blade_Animation_Intro.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+                "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.21"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 2
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "786ACFFA-4FB40700-0B279691-DA68DEDC"
+          },
+          {
+            "ObjectBindingID": "786ACFFA-4FB40700-0B279691-DA68DEDC"
+          },
+          {
+            "ObjectBindingID": "58DCFE0C-4B56114B-F9C74BA0-08699F10"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 21000
+          },
+          "SubFrame": 0.0
+        }
+      ],
+      "CompiledSignature": "E19490C3-45F10804-99EA3C96-2E76CAEE",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": {
+        "bEntityComponentField": true
+      },
+      "AllocatedMask": {
+        "bEntityComponentField": true
+      }
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Outro_INST'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.71"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 2,
+                  "Capacity": 2
+                },
+                {
+                  "StartIndex": 2,
+                  "Size": 1,
+                  "Capacity": 1
+                },
+                {
+                  "StartIndex": 3,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 2,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 2,
+                  "Capacity": 2
+                },
+                {
+                  "StartIndex": 2,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": -30000
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 3000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": 1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                },
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 3000
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 3000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 1
+                  }
+                },
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": -30000
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": -30000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": 0
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 2
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Outro_INST.Hazard_Blade_Animation_Outro.MovieScene2DTransformTrack_4.MovieScene2DTransformSection_0'",
+                "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.23"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneColorSection'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Outro_INST.Hazard_Blade_Animation_Outro.MovieSceneColorTrack_3.MovieSceneColorSection_0'",
+                "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.57"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneColorSection'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Outro_INST.Hazard_Blade_Animation_Outro.MovieSceneColorTrack_0.MovieSceneColorSection_0'",
+                "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.56"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 2
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "786ACFFA-4FB40700-0B279691-DA68DEDC"
+          },
+          {
+            "ObjectBindingID": "786ACFFA-4FB40700-0B279691-DA68DEDC"
+          },
+          {
+            "ObjectBindingID": "525E7E61-4D6DDC73-9C541FA9-5FFD001F"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": -30000
+          },
+          "SubFrame": 0.0
+        },
+        {
+          "FrameNumber": {
+            "Value": 3000
+          },
+          "SubFrame": 0.0
+        }
+      ],
+      "CompiledSignature": "F4BFF712-4CB49456-7E82D59C-55F59C62",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": {
+        "bEntityComponentField": true
+      },
+      "AllocatedMask": {
+        "bEntityComponentField": true
+      }
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Hazard_KB_Anim_A_C:Hide_INST'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.72"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneByteSection'Hazard_KB_Anim_A_C:Hide_INST.Hide.MovieSceneByteTrack_0.MovieSceneByteSection_0'",
+                "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.51"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "C9FEF1C1-48C8FC7A-CB30DF93-7AA31251"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 0
+          },
+          "SubFrame": 0.0
+        }
+      ],
+      "CompiledSignature": "1DED4339-477B1992-0382C7AB-F7C9309C",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": {
+        "bEntityComponentField": true
+      },
+      "AllocatedMask": {
+        "bEntityComponentField": true
+      }
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Hazard_KB_Anim_A_C:Show_INST'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.73"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneByteSection'Hazard_KB_Anim_A_C:Show_INST.Show.MovieSceneByteTrack_0.MovieSceneByteSection_0'",
+                "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.52"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "B897D125-4096FCA5-AB6F6B95-A0E7D541"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 0
+          },
+          "SubFrame": 0.0
+        }
+      ],
+      "CompiledSignature": "F53EBB12-41C2AFFE-6E38C8B3-FAD91EA3",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": {
+        "bEntityComponentField": true
+      },
+      "AllocatedMask": {
+        "bEntityComponentField": true
+      }
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'Hazard_KB_Anim_A_C:wingmove_INST'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.74"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 2,
+                  "Capacity": 2
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": -6000
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 6000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection'Hazard_KB_Anim_A_C:wingmove_INST.wingmove.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+                "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.24"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection'Hazard_KB_Anim_A_C:wingmove_INST.wingmove.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+                "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.25"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "B5E5AB7C-46119A8B-7CBF5588-7E052489"
+          },
+          {
+            "ObjectBindingID": "75D95E81-4C435E3A-457A9D8B-A7F808F1"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 6000
+          },
+          "SubFrame": 0.0
+        }
+      ],
+      "CompiledSignature": "1F2FC826-4BAD0C2B-FE5F1394-6207F382",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": {
+        "bEntityComponentField": true
+      },
+      "AllocatedMask": {
+        "bEntityComponentField": true
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Holder",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Hazard_KB_Anim_A_C:WidgetTree'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.76"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'Hazard_KB_Anim_A_C:WidgetTree.Holder.OverlaySlot_1'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.68"
+        },
+        {
+          "ObjectName": "OverlaySlot'Hazard_KB_Anim_A_C:WidgetTree.Holder.OverlaySlot_0'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.67"
+        }
+      ],
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'Hazard_KB_Anim_A_C:WidgetTree.Holder'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.66"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'Hazard_KB_Anim_A_C:WidgetTree.Holder'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.66"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'Hazard_KB_Anim_A_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.8"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'Hazard_KB_Anim_A_C:WidgetTree.Holder'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.66"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'Hazard_KB_Anim_A_C:WidgetTree.Holder'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.66"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'Hazard_KB_Anim_A_C:WidgetTree.Hazard_Anim_01_Assets'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.0"
+      }
+    }
+  },
+  {
+    "Type": "Spacer",
+    "Name": "Spacer_59",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Spacer'",
+    "Outer": {
+      "ObjectName": "WidgetTree'Hazard_KB_Anim_A_C:WidgetTree'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.76"
+    },
+    "Properties": {
+      "Size": {
+        "X": 60.0,
+        "Y": 1.0
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'Hazard_KB_Anim_A_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.11"
+      }
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Hazard_Blade_Animation_Intro_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Hazard_KB_Anim_A_C'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.75"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Intro_INST.Hazard_Blade_Animation_Intro'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.16"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "hazard_blade_teeth",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "786ACFFA-4FB40700-0B279691-DA68DEDC",
+          "bIsRootWidget": false
+        },
+        {
+          "WidgetName": "hazard_frame_anim",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "58DCFE0C-4B56114B-F9C74BA0-08699F10",
+          "bIsRootWidget": false
+        }
+      ],
+      "DisplayLabel": "Hazard_Blade_Animation_Intro",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Intro_INST.CompiledData'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.61"
+      },
+      "Signature": "E19490C3-45F10804-99EA3C96-2E76CAEE"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Hazard_Blade_Animation_Outro_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Hazard_KB_Anim_A_C'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.75"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Outro_INST.Hazard_Blade_Animation_Outro'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.17"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "hazard_blade_teeth",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "786ACFFA-4FB40700-0B279691-DA68DEDC",
+          "bIsRootWidget": false
+        },
+        {
+          "WidgetName": "hazard_frame_anim",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "525E7E61-4D6DDC73-9C541FA9-5FFD001F",
+          "bIsRootWidget": false
+        }
+      ],
+      "DisplayLabel": "Hazard_Blade_Animation_Outro",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Outro_INST.CompiledData'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.62"
+      },
+      "Signature": "F4BFF712-4CB49456-7E82D59C-55F59C62"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Hide_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Hazard_KB_Anim_A_C'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.75"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Hazard_KB_Anim_A_C:Hide_INST.Hide'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.18"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "Holder",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "C9FEF1C1-48C8FC7A-CB30DF93-7AA31251",
+          "bIsRootWidget": false
+        }
+      ],
+      "DisplayLabel": "Hide",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Hazard_KB_Anim_A_C:Hide_INST.CompiledData'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.63"
+      },
+      "Signature": "1DED4339-477B1992-0382C7AB-F7C9309C"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Show_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Hazard_KB_Anim_A_C'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.75"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Hazard_KB_Anim_A_C:Show_INST.Show'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.19"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "Holder",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "B897D125-4096FCA5-AB6F6B95-A0E7D541",
+          "bIsRootWidget": false
+        }
+      ],
+      "DisplayLabel": "Show",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Hazard_KB_Anim_A_C:Show_INST.CompiledData'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.64"
+      },
+      "Signature": "F53EBB12-41C2AFFE-6E38C8B3-FAD91EA3"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "wingmove_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Hazard_KB_Anim_A_C'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.75"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'Hazard_KB_Anim_A_C:wingmove_INST.wingmove'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.20"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "Image_126",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "B5E5AB7C-46119A8B-7CBF5588-7E052489",
+          "bIsRootWidget": false
+        },
+        {
+          "WidgetName": "Image_43",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "75D95E81-4C435E3A-457A9D8B-A7F808F1",
+          "bIsRootWidget": false
+        }
+      ],
+      "DisplayLabel": "wingmove",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'Hazard_KB_Anim_A_C:wingmove_INST.CompiledData'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.65"
+      },
+      "Signature": "1F2FC826-4BAD0C2B-FE5F1394-6207F382"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "Hazard_KB_Anim_A_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'OptionalKillBannerEffects_Parent_C'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/CommonAssets/OptionalKillBannerEffects_Parent.8"
+    },
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'Hazard_KB_Anim_A_C:WidgetTree'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.76"
+      },
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation'Hazard_KB_Anim_A_C:wingmove_INST'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.74"
+        },
+        {
+          "ObjectName": "WidgetAnimation'Hazard_KB_Anim_A_C:Show_INST'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.73"
+        },
+        {
+          "ObjectName": "WidgetAnimation'Hazard_KB_Anim_A_C:Hide_INST'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.72"
+        },
+        {
+          "ObjectName": "WidgetAnimation'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Intro_INST'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.70"
+        },
+        {
+          "ObjectName": "WidgetAnimation'Hazard_KB_Anim_A_C:Hazard_Blade_Animation_Outro_INST'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.71"
+        }
+      ],
+      "UberGraphFunction": {
+        "ObjectName": "Function'Hazard_KB_Anim_A_C:ExecuteUbergraph_Hazard_KB_Anim_A'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.3"
+      }
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'Hazard_KB_Anim_A_C:Trigger'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.6"
+      },
+      {
+        "ObjectName": "Function'Hazard_KB_Anim_A_C:OnFadeIn'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.4"
+      },
+      {
+        "ObjectName": "Function'Hazard_KB_Anim_A_C:OnFadeOut'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.5"
+      },
+      {
+        "ObjectName": "Function'Hazard_KB_Anim_A_C:ExecuteUbergraph_Hazard_KB_Anim_A'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.3"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Hazard_Blade_Animation_Outro",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Transient | RepSkip",
+        "PropertyClass": {
+          "ObjectName": "Class'WidgetAnimation'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Hazard_Blade_Animation_Intro",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Transient | RepSkip",
+        "PropertyClass": {
+          "ObjectName": "Class'WidgetAnimation'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Hide",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Transient | RepSkip",
+        "PropertyClass": {
+          "ObjectName": "Class'WidgetAnimation'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Show",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Transient | RepSkip",
+        "PropertyClass": {
+          "ObjectName": "Class'WidgetAnimation'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "wingmove",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Transient | RepSkip",
+        "PropertyClass": {
+          "ObjectName": "Class'WidgetAnimation'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "hazard_blade_teeth",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'Image'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "hazard_frame_anim",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'Image'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Holder",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'Overlay'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Image_43",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'Image'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Image_126",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'Image'",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_Hazard_KB_Anim_A": {
+        "ObjectName": "Function'Hazard_KB_Anim_A_C:ExecuteUbergraph_Hazard_KB_Anim_A'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.3"
+      },
+      "OnFadeOut": {
+        "ObjectName": "Function'Hazard_KB_Anim_A_C:OnFadeOut'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.5"
+      },
+      "OnFadeIn": {
+        "ObjectName": "Function'Hazard_KB_Anim_A_C:OnFadeIn'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.4"
+      },
+      "Trigger": {
+        "ObjectName": "Function'Hazard_KB_Anim_A_C:Trigger'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.6"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Hazard_KB_Anim_A_C'Default__Hazard_KB_Anim_A_C'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.7"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'Hazard_KB_Anim_A_C'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.75"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Overlay'Hazard_KB_Anim_A_C:WidgetTree.Holder'",
+        "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.66"
+      }
+    }
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "Texture2D",
+    "Name": "Demonstone_KillPip_Hover_v3",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Texture2D'",
+    "Properties": {
+      "ImportedSize": {
+        "X": 76,
+        "Y": 36
+      },
+      "LightingGuid": "A1D92E13-4501495F-09696989-CB06C4D9",
+      "LODGroup": "TextureGroup::TEXTUREGROUP_UI",
+      "NeverStream": true
+    },
+    "SizeX": 76,
+    "SizeY": 36,
+    "PackedData": 1,
+    "PixelFormat": "PF_DXT5",
+    "FirstMipToSerialize": 0,
+    "Mips": [
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 2736,
+          "SizeOnDisk": 2736,
+          "OffsetInFile": "0x74"
+        },
+        "SizeX": 76,
+        "SizeY": 36,
+        "SizeZ": 1
+      }
+    ]
+  }
+]

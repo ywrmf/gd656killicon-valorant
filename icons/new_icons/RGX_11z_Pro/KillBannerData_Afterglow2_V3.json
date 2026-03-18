@@ -1,0 +1,104 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "KillBannerData_Afterglow2_V3_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'KillBannerData_Parent_C'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/CommonAssets/KillBannerData_Parent.0"
+    },
+    "ClassFlags": "CLASS_NotPlaceable | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "KillBannerData_Afterglow2_V3_C'Default__KillBannerData_Afterglow2_V3_C'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Afterglow2/KillBannerData_Afterglow2_V3.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "KillBannerData_Afterglow2_V3_C",
+    "Name": "Default__KillBannerData_Afterglow2_V3_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/UI/InGame/KillBanner/Afterglow2/KillBannerData_Afterglow2_V3.KillBannerData_Afterglow2_V3_C'",
+    "Template": {
+      "ObjectName": "KillBannerData_Parent_C'Default__KillBannerData_Parent_C'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/CommonAssets/KillBannerData_Parent.1"
+    },
+    "Properties": {
+      "KillBannerData": {
+        "PrimaryColor_2_E5FCE8F2449464E9BE54588D1A1DDA81": {
+          "R": 0.617207,
+          "G": 0.23074,
+          "B": 0.024158,
+          "A": 1.0,
+          "Hex": "CE842B"
+        },
+        "BackgroundFrame_TXT_12_AE806B364880513036A646929D3B6758": {
+          "ObjectName": "Texture2D'Afterglow_FrameBG'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Afterglow2/Afterglow_FrameBG.0"
+        },
+        "BackgroundFrame_DSLV_14_6635B10B4261B551BF81D1A4FBF2DF04": {
+          "ObjectName": "Texture2D'Afterglow_FrameDissolve'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Afterglow2/Afterglow_FrameDissolve.0"
+        },
+        "KillWheel-TXT_16_FEBDF04D4D730BD70C7995B402C44EF2": {
+          "ObjectName": "Texture2D'Afterglow_RingBG'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Afterglow2/Afterglow_RingBG.0"
+        },
+        "KillWheel_Slice_Default_18_A2EF828C4325ABF6030B19962A75A149": {
+          "ObjectName": "Texture2D'Afterglow_KillPip__v3_Up'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Afterglow2/Afterglow_KillPip__v3_Up.0"
+        },
+        "KillWheel_Slice_Hover_20_493CD45B4598268ADD2FA380C4354AB8": {
+          "ObjectName": "Texture2D'Afterglow_KillPip_v3_Hover'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Afterglow2/Afterglow_KillPip_v3_Hover.0"
+        },
+        "KillWheel_Slice_Radius_23_93B498D8455F7ECBDF0367ADF77B93E3": 147.0,
+        "Badge_Default_TXT_69_50160A5A4C36A394A83226BD4C657FF8": {
+          "ObjectName": "Texture2D'Afterglow_Emblem_v3'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Afterglow2/Afterglow_Emblem_v3.0"
+        },
+        "Badge_HeadshotOffset_34_46CE41534C94C72E84BC8195F948FA17": {
+          "X": 0.85,
+          "Y": -21.0
+        },
+        "Badge_DSLV_28_8BA9284A4916700DC0B6FB8C7B83D9E9": {
+          "ObjectName": "Texture2D'Afterglow_Badge_Dissolve'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Afterglow2/Afterglow_Badge_Dissolve.0"
+        },
+        "Sound_Kill_47_9B1FDAB843DC6512CC6DEBBFD285D954": {
+          "ObjectName": "AkAudioEvent'Play_UI_KillBanner_AfterGlow_1'",
+          "ObjectPath": "/Game/WwiseAudio/Events/SFX/UI/Events_UI_KillBanner/UI_KillBanner_AfterGlow/Play_UI_KillBanner_AfterGlow_1.0"
+        },
+        "Sound_DoubleKill_49_8199936D41C25E655FC118B3DA0B872A": {
+          "ObjectName": "AkAudioEvent'Play_UI_KillBanner_AfterGlow_2'",
+          "ObjectPath": "/Game/WwiseAudio/Events/SFX/UI/Events_UI_KillBanner/UI_KillBanner_AfterGlow/Play_UI_KillBanner_AfterGlow_2.0"
+        },
+        "Sound_TripleKill_53_42692B884F482A6931BC6C866150C6B8": {
+          "ObjectName": "AkAudioEvent'Play_UI_KillBanner_AfterGlow_3'",
+          "ObjectPath": "/Game/WwiseAudio/Events/SFX/UI/Events_UI_KillBanner/UI_KillBanner_AfterGlow/Play_UI_KillBanner_AfterGlow_3.0"
+        },
+        "Sound_QuadraKill_55_C843BB9C412F8CA18FA293B4A540C23B": {
+          "ObjectName": "AkAudioEvent'Play_UI_KillBanner_AfterGlow_4'",
+          "ObjectPath": "/Game/WwiseAudio/Events/SFX/UI/Events_UI_KillBanner/UI_KillBanner_AfterGlow/Play_UI_KillBanner_AfterGlow_4.0"
+        },
+        "Sound_PentaKill_57_5B911D164B9C15F47622B882028A6C4C": {
+          "ObjectName": "AkAudioEvent'Play_UI_KillBanner_AfterGlow_5'",
+          "ObjectPath": "/Game/WwiseAudio/Events/SFX/UI/Events_UI_KillBanner/UI_KillBanner_AfterGlow/Play_UI_KillBanner_AfterGlow_5.0"
+        },
+        "Sound_OverKill_61_CEE59617464E924CBC7649A3520DC1AA": {
+          "ObjectName": "AkAudioEvent'Play_UI_KillBanner_AfterGlow_5'",
+          "ObjectPath": "/Game/WwiseAudio/Events/SFX/UI/Events_UI_KillBanner/UI_KillBanner_AfterGlow/Play_UI_KillBanner_AfterGlow_5.0"
+        }
+      }
+    }
+  }
+]

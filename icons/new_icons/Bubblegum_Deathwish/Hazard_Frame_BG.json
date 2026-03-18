@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "Texture2D",
+    "Name": "Hazard_Frame_BG",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Texture2D'",
+    "Properties": {
+      "ImportedSize": {
+        "X": 220,
+        "Y": 220
+      },
+      "LightingGuid": "48A5C520-41A8080C-D8EAD4A3-D198CF66",
+      "LODGroup": "TextureGroup::TEXTUREGROUP_UI",
+      "NeverStream": true
+    },
+    "SizeX": 220,
+    "SizeY": 220,
+    "PackedData": 1,
+    "PixelFormat": "PF_DXT5",
+    "FirstMipToSerialize": 0,
+    "Mips": [
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 48400,
+          "SizeOnDisk": 48400,
+          "OffsetInFile": "0x74"
+        },
+        "SizeX": 220,
+        "SizeY": 220,
+        "SizeZ": 1
+      }
+    ]
+  }
+]

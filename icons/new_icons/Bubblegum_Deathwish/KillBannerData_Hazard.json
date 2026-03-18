@@ -1,0 +1,215 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "KillBannerData_Hazard_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'KillBannerData_Parent_C'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/CommonAssets/KillBannerData_Parent.0"
+    },
+    "ClassFlags": "CLASS_NotPlaceable | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "KillBannerData_Hazard_C'Default__KillBannerData_Hazard_C'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/KillBannerData_Hazard.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "KillBannerData_Hazard_C",
+    "Name": "Default__KillBannerData_Hazard_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/UI/InGame/KillBanner/Hazard/KillBannerData_Hazard.KillBannerData_Hazard_C'",
+    "Template": {
+      "ObjectName": "KillBannerData_Parent_C'Default__KillBannerData_Parent_C'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/CommonAssets/KillBannerData_Parent.1"
+    },
+    "Properties": {
+      "KillBannerData": {
+        "PrimaryColor_2_E5FCE8F2449464E9BE54588D1A1DDA81": {
+          "R": 0.427083,
+          "G": 0.0,
+          "B": 0.364789,
+          "A": 1.0,
+          "Hex": "AF00A3"
+        },
+        "BackgroundFrame_TXT_12_AE806B364880513036A646929D3B6758": {
+          "ObjectName": "Texture2D'hazard_blank'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/hazard_blank.0"
+        },
+        "KillWheel-TXT_16_FEBDF04D4D730BD70C7995B402C44EF2": {
+          "ObjectName": "Texture2D'hazard_blank_ring'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/hazard_blank_ring.0"
+        },
+        "KillWheel_Slice_Default_18_A2EF828C4325ABF6030B19962A75A149": {
+          "ObjectName": "Texture2D'Hazard_KillPip_Up'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KillPip_Up.0"
+        },
+        "KillWheel_Slice_Hover_20_493CD45B4598268ADD2FA380C4354AB8": {
+          "ObjectName": "Texture2D'Hazard_KillPip_Hover'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KillPip_Hover.0"
+        },
+        "KillWheel_Slice_Radius_23_93B498D8455F7ECBDF0367ADF77B93E3": 170.0,
+        "Badge_Default_TXT_69_50160A5A4C36A394A83226BD4C657FF8": {
+          "ObjectName": "Texture2D'Hazard_Emblem_Standard'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_Emblem_Standard.0"
+        },
+        "Badge_HeadshotOffset_34_46CE41534C94C72E84BC8195F948FA17": {
+          "X": 0.0,
+          "Y": 3.25
+        },
+        "Sound_Kill_47_9B1FDAB843DC6512CC6DEBBFD285D954": {
+          "ObjectName": "AkAudioEvent'Play_UI_KillBanner_Hazard_1'",
+          "ObjectPath": "/Game/WwiseAudio/Events/SFX/UI/Events_UI_KillBanner/UI_KillBanner_Hazard/Play_UI_KillBanner_Hazard_1.0"
+        },
+        "Sound_DoubleKill_49_8199936D41C25E655FC118B3DA0B872A": {
+          "ObjectName": "AkAudioEvent'Play_UI_KillBanner_Hazard_2'",
+          "ObjectPath": "/Game/WwiseAudio/Events/SFX/UI/Events_UI_KillBanner/UI_KillBanner_Hazard/Play_UI_KillBanner_Hazard_2.0"
+        },
+        "Sound_TripleKill_53_42692B884F482A6931BC6C866150C6B8": {
+          "ObjectName": "AkAudioEvent'Play_UI_KillBanner_Hazard_3'",
+          "ObjectPath": "/Game/WwiseAudio/Events/SFX/UI/Events_UI_KillBanner/UI_KillBanner_Hazard/Play_UI_KillBanner_Hazard_3.0"
+        },
+        "Sound_QuadraKill_55_C843BB9C412F8CA18FA293B4A540C23B": {
+          "ObjectName": "AkAudioEvent'Play_UI_KillBanner_Hazard_4'",
+          "ObjectPath": "/Game/WwiseAudio/Events/SFX/UI/Events_UI_KillBanner/UI_KillBanner_Hazard/Play_UI_KillBanner_Hazard_4.0"
+        },
+        "Sound_PentaKill_57_5B911D164B9C15F47622B882028A6C4C": {
+          "ObjectName": "AkAudioEvent'Play_UI_KillBanner_Hazard_5'",
+          "ObjectPath": "/Game/WwiseAudio/Events/SFX/UI/Events_UI_KillBanner/UI_KillBanner_Hazard/Play_UI_KillBanner_Hazard_5.0"
+        },
+        "Sound_OverKill_61_CEE59617464E924CBC7649A3520DC1AA": {
+          "ObjectName": "AkAudioEvent'Play_UI_KillBanner_Hazard_5'",
+          "ObjectPath": "/Game/WwiseAudio/Events/SFX/UI/Events_UI_KillBanner/UI_KillBanner_Hazard/Play_UI_KillBanner_Hazard_5.0"
+        },
+        "Special_Overrides_65_6CA58C414641F0212ECF9B90331950CD": {
+          "SpecialOverrides_85_B9C5E4D14A388836285C95961A573923": true,
+          "Overrides_109_EAF9597147FE183D550D2AB7DA09F18B": [
+            {
+              "KillBanner_Override_6_B4181C5E42562923CA1D7084A5FA6530": {
+                "ObjectName": "Texture2D'Hazard_Emblem_Standard'",
+                "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_Emblem_Standard.0"
+              },
+              "Glow_Override_9_B6C0EA72462BD7C9A04832936216A8BE": null,
+              "BackGround_Override_11_EE6FC2A74C641D6B02A7B9B0DEE8478E": {
+                "ObjectName": "Texture2D'hazard_blank'",
+                "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/hazard_blank.0"
+              },
+              "BackGroundDissolve_Override_13_BCA39DA74FC844CB61EB16BE4FF43309": {
+                "ObjectName": "Texture2D'Base_FrameDissolve'",
+                "ObjectPath": "/Game/UI/InGame/KillBanner/Base/Assets/Base_FrameDissolve.0"
+              },
+              "KillBannerWings_16_0C3D9227431FDA777AF06AA2DAC95364": {
+                "ObjectName": "WidgetBlueprintGeneratedClass'Hazard_KB_Anim_A_C'",
+                "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.75"
+              }
+            },
+            {
+              "KillBanner_Override_6_B4181C5E42562923CA1D7084A5FA6530": {
+                "ObjectName": "Texture2D'Hazard_Emblem_Standard'",
+                "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_Emblem_Standard.0"
+              },
+              "Glow_Override_9_B6C0EA72462BD7C9A04832936216A8BE": null,
+              "BackGround_Override_11_EE6FC2A74C641D6B02A7B9B0DEE8478E": {
+                "ObjectName": "Texture2D'hazard_blank'",
+                "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/hazard_blank.0"
+              },
+              "BackGroundDissolve_Override_13_BCA39DA74FC844CB61EB16BE4FF43309": {
+                "ObjectName": "Texture2D'Base_FrameDissolve'",
+                "ObjectPath": "/Game/UI/InGame/KillBanner/Base/Assets/Base_FrameDissolve.0"
+              },
+              "KillBannerWings_16_0C3D9227431FDA777AF06AA2DAC95364": {
+                "ObjectName": "WidgetBlueprintGeneratedClass'Hazard_KB_Anim_A_C'",
+                "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.75"
+              }
+            },
+            {
+              "KillBanner_Override_6_B4181C5E42562923CA1D7084A5FA6530": {
+                "ObjectName": "Texture2D'Hazard_Emblem_Standard'",
+                "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_Emblem_Standard.0"
+              },
+              "Glow_Override_9_B6C0EA72462BD7C9A04832936216A8BE": null,
+              "BackGround_Override_11_EE6FC2A74C641D6B02A7B9B0DEE8478E": {
+                "ObjectName": "Texture2D'hazard_blank'",
+                "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/hazard_blank.0"
+              },
+              "BackGroundDissolve_Override_13_BCA39DA74FC844CB61EB16BE4FF43309": {
+                "ObjectName": "Texture2D'Base_FrameDissolve'",
+                "ObjectPath": "/Game/UI/InGame/KillBanner/Base/Assets/Base_FrameDissolve.0"
+              },
+              "KillBannerWings_16_0C3D9227431FDA777AF06AA2DAC95364": {
+                "ObjectName": "WidgetBlueprintGeneratedClass'Hazard_KB_Anim_A_C'",
+                "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.75"
+              }
+            },
+            {
+              "KillBanner_Override_6_B4181C5E42562923CA1D7084A5FA6530": {
+                "ObjectName": "Texture2D'Hazard_Emblem_Standard'",
+                "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_Emblem_Standard.0"
+              },
+              "Glow_Override_9_B6C0EA72462BD7C9A04832936216A8BE": null,
+              "BackGround_Override_11_EE6FC2A74C641D6B02A7B9B0DEE8478E": {
+                "ObjectName": "Texture2D'hazard_blank'",
+                "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/hazard_blank.0"
+              },
+              "BackGroundDissolve_Override_13_BCA39DA74FC844CB61EB16BE4FF43309": {
+                "ObjectName": "Texture2D'Base_FrameDissolve'",
+                "ObjectPath": "/Game/UI/InGame/KillBanner/Base/Assets/Base_FrameDissolve.0"
+              },
+              "KillBannerWings_16_0C3D9227431FDA777AF06AA2DAC95364": {
+                "ObjectName": "WidgetBlueprintGeneratedClass'Hazard_KB_Anim_A_C'",
+                "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.75"
+              }
+            },
+            {
+              "KillBanner_Override_6_B4181C5E42562923CA1D7084A5FA6530": {
+                "ObjectName": "Texture2D'Hazard_Emblem_Standard'",
+                "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_Emblem_Standard.0"
+              },
+              "Glow_Override_9_B6C0EA72462BD7C9A04832936216A8BE": null,
+              "BackGround_Override_11_EE6FC2A74C641D6B02A7B9B0DEE8478E": {
+                "ObjectName": "Texture2D'hazard_blank'",
+                "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/hazard_blank.0"
+              },
+              "BackGroundDissolve_Override_13_BCA39DA74FC844CB61EB16BE4FF43309": {
+                "ObjectName": "Texture2D'Base_FrameDissolve'",
+                "ObjectPath": "/Game/UI/InGame/KillBanner/Base/Assets/Base_FrameDissolve.0"
+              },
+              "KillBannerWings_16_0C3D9227431FDA777AF06AA2DAC95364": {
+                "ObjectName": "WidgetBlueprintGeneratedClass'Hazard_KB_Anim_A_C'",
+                "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.75"
+              }
+            },
+            {
+              "KillBanner_Override_6_B4181C5E42562923CA1D7084A5FA6530": {
+                "ObjectName": "Texture2D'Hazard_Emblem_Standard'",
+                "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_Emblem_Standard.0"
+              },
+              "Glow_Override_9_B6C0EA72462BD7C9A04832936216A8BE": null,
+              "BackGround_Override_11_EE6FC2A74C641D6B02A7B9B0DEE8478E": {
+                "ObjectName": "Texture2D'hazard_blank'",
+                "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/hazard_blank.0"
+              },
+              "BackGroundDissolve_Override_13_BCA39DA74FC844CB61EB16BE4FF43309": {
+                "ObjectName": "Texture2D'Base_FrameDissolve'",
+                "ObjectPath": "/Game/UI/InGame/KillBanner/Base/Assets/Base_FrameDissolve.0"
+              },
+              "KillBannerWings_16_0C3D9227431FDA777AF06AA2DAC95364": {
+                "ObjectName": "WidgetBlueprintGeneratedClass'Hazard_KB_Anim_A_C'",
+                "ObjectPath": "/Game/UI/InGame/KillBanner/Hazard/Hazard_KB_Anim_A.75"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+]

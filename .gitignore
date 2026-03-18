@@ -1,0 +1,16 @@
+# Gradle
+.gradle/
+.gradle-home/
+.gradle-user/
+.gradle-user-*/
+/build/
+
+# IDE
+.idea/
+.vscode/
+
+# Run directory (Minecraft runtime files)
+/run/
+
+# Bin
+/bin/

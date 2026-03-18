@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "Texture2D",
+    "Name": "Afterglow_KillPip_Hover",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Texture2D'",
+    "Properties": {
+      "ImportedSize": {
+        "X": 45,
+        "Y": 42
+      },
+      "LightingGuid": "8BF3A841-450C01E3-155B89B7-EB20F60F",
+      "LODGroup": "TextureGroup::TEXTUREGROUP_UI",
+      "NeverStream": true
+    },
+    "SizeX": 45,
+    "SizeY": 42,
+    "PackedData": 1,
+    "PixelFormat": "PF_B8G8R8A8",
+    "FirstMipToSerialize": 0,
+    "Mips": [
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 7560,
+          "SizeOnDisk": 7560,
+          "OffsetInFile": "0x78"
+        },
+        "SizeX": 45,
+        "SizeY": 42,
+        "SizeZ": 1
+      }
+    ]
+  }
+]

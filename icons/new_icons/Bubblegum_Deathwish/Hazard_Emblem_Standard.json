@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "Texture2D",
+    "Name": "Hazard_Emblem_Standard",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Texture2D'",
+    "Properties": {
+      "ImportedSize": {
+        "X": 180,
+        "Y": 180
+      },
+      "LightingGuid": "AE3CD924-44F87BB9-13DD8EB4-FE3E63DC",
+      "LODGroup": "TextureGroup::TEXTUREGROUP_UI",
+      "NeverStream": true
+    },
+    "SizeX": 180,
+    "SizeY": 180,
+    "PackedData": 1,
+    "PixelFormat": "PF_DXT5",
+    "FirstMipToSerialize": 0,
+    "Mips": [
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 32400,
+          "SizeOnDisk": 32400,
+          "OffsetInFile": "0x74"
+        },
+        "SizeX": 180,
+        "SizeY": 180,
+        "SizeZ": 1
+      }
+    ]
+  }
+]

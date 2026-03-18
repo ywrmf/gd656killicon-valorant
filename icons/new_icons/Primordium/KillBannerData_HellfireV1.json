@@ -1,0 +1,88 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "KillBannerData_HellfireV1_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'KillBannerData_Parent_C'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/CommonAssets/KillBannerData_Parent.0"
+    },
+    "ClassFlags": "CLASS_NotPlaceable | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "KillBannerData_HellfireV1_C'Default__KillBannerData_HellfireV1_C'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/Hellfire/KillBannerData_HellfireV1.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "KillBannerData_HellfireV1_C",
+    "Name": "Default__KillBannerData_HellfireV1_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/UI/InGame/KillBanner/Hellfire/KillBannerData_HellfireV1.KillBannerData_HellfireV1_C'",
+    "Template": {
+      "ObjectName": "KillBannerData_Parent_C'Default__KillBannerData_Parent_C'",
+      "ObjectPath": "/Game/UI/InGame/KillBanner/CommonAssets/KillBannerData_Parent.1"
+    },
+    "Properties": {
+      "KillBannerData": {
+        "PrimaryColor_2_E5FCE8F2449464E9BE54588D1A1DDA81": {
+          "R": 0.23074,
+          "G": 0.822786,
+          "B": 0.467784,
+          "A": 1.0,
+          "Hex": "84EAB6"
+        },
+        "BackgroundFrame_TXT_12_AE806B364880513036A646929D3B6758": {
+          "ObjectName": "Texture2D'HellFire_Frame'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hellfire/HellFire_Frame.0"
+        },
+        "KillWheel_Slice_Default_18_A2EF828C4325ABF6030B19962A75A149": {
+          "ObjectName": "Texture2D'HellFire_KillPip_Up_V1'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hellfire/HellFire_KillPip_Up_V1.0"
+        },
+        "KillWheel_Slice_Hover_20_493CD45B4598268ADD2FA380C4354AB8": {
+          "ObjectName": "Texture2D'HellFire_KillPip_Hover_V1'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hellfire/HellFire_KillPip_Hover_V1.0"
+        },
+        "KillWheel_Slice_Radius_23_93B498D8455F7ECBDF0367ADF77B93E3": 152.0,
+        "Badge_Default_TXT_69_50160A5A4C36A394A83226BD4C657FF8": {
+          "ObjectName": "Texture2D'Hellfire_Emblem_V1'",
+          "ObjectPath": "/Game/UI/InGame/KillBanner/Hellfire/Hellfire_Emblem_V1.0"
+        },
+        "Sound_Kill_47_9B1FDAB843DC6512CC6DEBBFD285D954": {
+          "ObjectName": "AkAudioEvent'Play_UI_KillBanner_Hellfire_1'",
+          "ObjectPath": "/Game/WwiseAudio/Events/SFX/UI/Events_UI_KillBanner/UI_KillBanner_Hellfire/Play_UI_KillBanner_Hellfire_1.0"
+        },
+        "Sound_DoubleKill_49_8199936D41C25E655FC118B3DA0B872A": {
+          "ObjectName": "AkAudioEvent'Play_UI_KillBanner_Hellfire_2'",
+          "ObjectPath": "/Game/WwiseAudio/Events/SFX/UI/Events_UI_KillBanner/UI_KillBanner_Hellfire/Play_UI_KillBanner_Hellfire_2.0"
+        },
+        "Sound_TripleKill_53_42692B884F482A6931BC6C866150C6B8": {
+          "ObjectName": "AkAudioEvent'Play_UI_KillBanner_Hellfire_3'",
+          "ObjectPath": "/Game/WwiseAudio/Events/SFX/UI/Events_UI_KillBanner/UI_KillBanner_Hellfire/Play_UI_KillBanner_Hellfire_3.0"
+        },
+        "Sound_QuadraKill_55_C843BB9C412F8CA18FA293B4A540C23B": {
+          "ObjectName": "AkAudioEvent'Play_UI_KillBanner_Hellfire_4'",
+          "ObjectPath": "/Game/WwiseAudio/Events/SFX/UI/Events_UI_KillBanner/UI_KillBanner_Hellfire/Play_UI_KillBanner_Hellfire_4.0"
+        },
+        "Sound_PentaKill_57_5B911D164B9C15F47622B882028A6C4C": {
+          "ObjectName": "AkAudioEvent'Play_UI_KillBanner_Hellfire_5'",
+          "ObjectPath": "/Game/WwiseAudio/Events/SFX/UI/Events_UI_KillBanner/UI_KillBanner_Hellfire/Play_UI_KillBanner_Hellfire_5.0"
+        },
+        "Sound_OverKill_61_CEE59617464E924CBC7649A3520DC1AA": {
+          "ObjectName": "AkAudioEvent'Play_UI_KillBanner_Hellfire_5'",
+          "ObjectPath": "/Game/WwiseAudio/Events/SFX/UI/Events_UI_KillBanner/UI_KillBanner_Hellfire/Play_UI_KillBanner_Hellfire_5.0"
+        }
+      }
+    }
+  }
+]
